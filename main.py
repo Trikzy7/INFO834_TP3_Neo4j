@@ -24,7 +24,7 @@ df_communes = df_communes.dropna()
 print(df.columns)
 
 # Créer une instance de GraphDatabase
-db = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "Zidane2002"))
+db = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "neo4j"))
 
 
 # Créer une session
